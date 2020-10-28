@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Idade - Exercício JS</title>
+</head>
+<body>
+
+    <header>
+        <h1>Verifique sua idade</h1>
+    </header>
+
+    <section>
+        
+        <div id="mensagem">  
+            <p>
+                Ano de nascimento:
+                <input type="number" name="nascimento" id="nascimento" min="0">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verifique aqui!" onclick="checkIdade()">
+            </p>
+        </div>
+
+        <div id="resultado">
+            <h1>Preencha os dados acima</h1>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Thiago Calomino</p>
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>
