@@ -67,3 +67,7 @@ function checkIdade(){
 
     }
 }
+
+let button = document.querySelector("input#btnIdade")
+
+button.addEventListener("click",checkIdade)
